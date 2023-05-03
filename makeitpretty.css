@@ -1,0 +1,91 @@
+﻿body 
+/* general rules for all text */
+{
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:flex;
+}
+
+/* Background colour for navbar*/ 
+    .topnav{
+    background-color: #ec75bd;
+    overflow: hidden;
+    z-index:10;
+}
+/*Colour for the links of the navbar*/
+        .topnav a {
+            float: left;
+            color: #000000;
+            text-align: center;
+            padding: 20px 32px;
+            text-decoration: none;
+            font-size: 18px;
+            z-index: 10;
+        }
+/*Change the color of links when mouse is over*/
+            .topnav a:hover {
+                background-color: #000000;
+                color: #ec75bd;
+                z-index: 10;
+            }
+            .topnav a.active {
+                background-color: #ffff00;
+                color: #ec75bd;
+                z-index: 10;
+            }
+h1 {
+    text-align: center;
+    z-index: 10;
+}
+hr {
+    height: 8px;
+    background-color: black;
+    margin-top: 0.5cm;
+    margin-bottom: 0.75cm;
+    z-index: 10;
+}
+div.bordered {
+    display:flex;
+    border-style: dotted;
+    border-width: thick;
+    text-align: center;
+    padding: 10px 10px;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 33%;
+    margin-right: 33%;
+    z-index:10;
+}
+div.center{
+    justify-content:center;
+    text-align:center;
+}
+#container {
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    background: grey;
+    z-index: 1;
+}
+
+#animate {
+    width: 1920px;
+    height: 50px;
+    position: relative;
+    background-color: pink;
+    z-index: -1;
+}
+input {
+    z-index:10;
+}
+button.convert{
+    padding: 12px;
+    border:3px solid #ec75bd;
+    background-color:white;
+    color:black;
+}
+button.convert:hover{
+    background-color:black;
+    color:white;
+}

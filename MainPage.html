@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="makeitpretty.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Oliver's Website</title>
+</head>
+<body>
+    <!--Background-->
+    <div id="container">
+        <div id="animate"></div>
+        <script src="animation.js"></script>
+        <!--Warning on entry -->
+        <script src="warningonentry.js"></script>
+        <!-- code for navbar -->
+        <div class="topnav">
+            <a class="active" href="#mainpage">Main Page</a>
+            <a href="about">About</a>
+            <a onclick="window.print()">Print</a>
+        </div>
+        <!--Navbar Done-->
+        <hr />
+        <h1>Welcome to Olivers Website</h1>
+        <hr />
+
+        <br />
+        <br />
+        <!--End of Header-->
+
+        <!--Script for Date-->`
+        <div id="date" class="bordered">
+            <script src="date.js">
+            </script>
+        </div>
+        <br />
+        <br />
+        <!--End of Script-->
+
+        <!--Kilogram Converter-->
+        <div class="center">
+            <label for="kilograms">| Enter Weight in KG Below |</label>
+            <br />
+            <br />
+            <input type="text" id="inputamt" name="kilograms" size="40" />
+        <br />
+            <br />
+        <button onclick="kiloconverter()" class="convert">Convert to Grams</button>
+        <script src="kiloconverter.js"></script>
+    </div>
+        <!--End of Kilogram Converter-->
+        <div>
+            <button onclick="change()">Click to Change the Text</button>
+            <p id="message"></p>
+            <script src="textchanger.js"></script>
+        </div>
+
+        <!--The div below holds the background together!!!-->
+    </div>
+    <br />
+</body>
+</html>
