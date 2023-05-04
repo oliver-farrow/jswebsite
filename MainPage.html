@@ -15,8 +15,8 @@
         <script src="warningonentry.js"></script>
         <!-- code for navbar -->
         <div class="topnav">
-            <a class="active" href="#mainpage">Main Page</a>
-            <a href="about">About</a>
+            <a class="active" href="MainPage.html">Main Page</a>
+            <a href="about.html">About</a>
             <a onclick="window.print()">Print</a>
         </div>
         <!--Navbar Done-->
@@ -49,12 +49,17 @@
         <script src="kiloconverter.js"></script>
     </div>
         <!--End of Kilogram Converter-->
-        <div>
-            <button onclick="change()">Click to Change the Text</button>
+        <div class="center">
+            <button onclick="change()" class="convert">Click to Change the Text</button>
             <p id="message"></p>
             <script src="textchanger.js"></script>
         </div>
-
+        <!--Counter-->
+        <div class="center">
+            <button onclick="add()">Click to Count!</button>
+            <p id="count"></p>
+            <script src="counter.js"></script>
+        </div>
         <!--The div below holds the background together!!!-->
     </div>
     <br />

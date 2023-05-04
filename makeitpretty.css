@@ -58,8 +58,8 @@ div.bordered {
     z-index:10;
 }
 div.center{
-    justify-content:center;
     text-align:center;
+    justify-content:center;
 }
 #container {
     width: 1920px;
@@ -89,3 +89,4 @@ button.convert:hover{
     background-color:black;
     color:white;
 }
+
