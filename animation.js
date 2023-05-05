@@ -1,3 +1,4 @@
+//Looping animation used as background
 window.onload = () => {
     startSetTimeoutAnimation();
     startAnimFrameAnimation();

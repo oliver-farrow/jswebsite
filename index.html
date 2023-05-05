@@ -29,7 +29,8 @@
         <!--End of Header-->
 
         <!--Script for Date-->`
-        <div id="date" class="bordered">
+        <div class="bordered">
+        <p id="date"></p>
             <script src="date.js">
             </script>
         </div>
@@ -49,18 +50,24 @@
         <script src="kiloconverter.js"></script>
     </div>
         <!--End of Kilogram Converter-->
+        <!-- Text Changer -->
+        <hr />
         <div class="center">
             <button onclick="change()" class="convert">Click to Change the Text</button>
             <p id="message"></p>
             <script src="textchanger.js"></script>
         </div>
+        <hr />
+
         <!--Counter-->
         <div class="center">
-            <button onclick="add()">Click to Count!</button>
+            <button onclick="add()" class="convert">Click to Count!</button>
             <p id="count"></p>
             <script src="counter.js"></script>
         </div>
+
         <!--The div below holds the background together!!!-->
+
     </div>
     <br />
 </body>

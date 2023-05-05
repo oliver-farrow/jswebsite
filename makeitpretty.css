@@ -33,9 +33,18 @@
                 color: #ec75bd;
                 z-index: 10;
             }
+/*Text family decoration*/
 h1 {
     text-align: center;
     z-index: 10;
+}
+p {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:21px;
+}
+label{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:21px;
 }
 hr {
     height: 8px;
@@ -43,7 +52,12 @@ hr {
     margin-top: 0.5cm;
     margin-bottom: 0.75cm;
     z-index: 10;
+    border-color:black;
 }
+input {
+    z-index:10;
+}
+/*Div Decoration*/
 div.bordered {
     display:flex;
     border-style: dotted;
@@ -61,6 +75,7 @@ div.center{
     text-align:center;
     justify-content:center;
 }
+/*CSS For animation*/
 #container {
     width: 1920px;
     height: 1080px;
@@ -76,14 +91,13 @@ div.center{
     background-color: pink;
     z-index: -1;
 }
-input {
-    z-index:10;
-}
+/*Button Deco!*/
 button.convert{
     padding: 12px;
     border:3px solid #ec75bd;
     background-color:white;
     color:black;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 button.convert:hover{
     background-color:black;
